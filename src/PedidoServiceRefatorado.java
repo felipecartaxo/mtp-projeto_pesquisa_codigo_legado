@@ -2,8 +2,8 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.logging.Logger;
 
-// Exemplo de código gerado por IA simulando código legado
-public class PedidoService {
+// Código refatorado para melhor legibilidade e manutenção
+public class PedidoServiceRefatorado {
 
     private static final Logger logger = Logger.getLogger(PedidoService.class.getName());
     private static final double DESCONTO_ESPECIAL = 0.1;
@@ -39,4 +39,5 @@ public class PedidoService {
             logger.severe("Erro ao salvar pedido: " + e.getMessage());
         }
     }
+
 }
